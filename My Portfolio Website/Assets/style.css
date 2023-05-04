@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main{
+    width: 100%;
+    background-image: url(./img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.menu2{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu2 ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 13px;
+    font-size: 14px;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.menu2 ul li{
+    list-style: none;
+    margin-left: 22px;
+    margin-top: 13px;
+    font-size: 14px;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+ul li a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+#home{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+#home .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+#home h3{
+    margin-top: 50px;
+    padding-top: 70px;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+#home h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 3%;
+    letter-spacing: 2px;
+}
+
+#home h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.icons{
+    font-size: larger;
+    padding-left: 30px;
+}
+
+.fa-facebook:hover{
+    font-size: x-large;
+    color: lightblue;
+}
+
+.fa-instagram:hover{
+    font-size: x-large;
+    color: lightblue;
+}
+
+.fa-twitter:hover{
+    font-size: x-large;
+    color: lightblue;
+}
+
+.fa-linkedin:hover{
+    font-size: x-large;
+    color: lightblue;
+}
+
+.fa-phone{
+    float: right;
+    font-size: small;
+}
+
+#home .btn2{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+#home .btn2 a{
+    color: black;
+    transition: 0.3s ease;
+}
+
+#home .btn2:hover{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+}
+
+span{
+    color: lightblue;
+    font-size: 60px;
+}
+
+.img{
+    background-image: url(./FB_IMG_1682756462232.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 870px;
+    border: 2px solid lightblue;
+    border-radius: 50px;
+}
+
+#aboutMe{
+    background-color: lightblue;
+    height: 100vh;
+}
+
+#aboutMe h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 90px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+#portfolio{
+    background-color: rgb(7, 31, 63);
+    height: 100vh;
+}
+
+#portfolio .project{
+    display: flex;
+}
+
+.project-container1{
+    flex: 50%;
+}
+
+.project-container2{
+    flex: 50%;
+}
+
+#portfolio h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 90px;
+    padding-top: 30px;
+    letter-spacing: 2px; 
+}
+
+#contactMe{
+    background-color: lightblue;
+    height: 95vh;
+}
+
+#contactMe h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 90px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+aside{
+    float: none;
+    width: 30%;
+    background-color: rgb(7, 31, 63);
+    margin: 50px;
+    margin-left: 400px;
+    padding: 50px;
+    border: 1px solid orange;
+    border-radius: 15px;
+}
+
+#messageBox{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 12px 20px;   
+}
+
+#email{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+}
+
+
+
+.btn3{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.btn4{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.img2{
+    background-image: url(./IMG-20221222-WA0043.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+    border: 2px solid lightblue;
+    border-radius: 50px;
+}
+
+.img2 a{
+    position: absolute;
+    top: 600px;
+    font-size: 40px;
+}
+
+.content ul{
+    padding: 20px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.project1{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.project2{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.project3{ 
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.project4{
+     padding-top: 40px;
+    padding-left: 20px;
+} 
+
+.project1 h3{
+    margin-top: 15px;
+}
+
+.project2 h3{
+    margin-top: 15px;
+}
+
+.project3 h3{
+    margin-top: 15px;
+}
+
+.project4 h3{
+    margin-top: 15px;
+}
+
+#portfolio img{
+    width: 400px;
+    height: 200px;
+}
+
+
+footer{
+    background-color: rgb(7, 31, 63);
+    color: orange;
+    height: 5vh;
+}
+
+#aboutMe .wrapper{
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(100, 52, 52);
+    height: 100%;
+}
+
+.left-item{
+    flex: 30%;
+
+}
+
+.center-item{
+    flex: 30%;
+}
+
+.right-item{
+    flex: 30%;
+}
+
+.flex-item img{
+    width: 400px;
+    height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .flex-item{
+        display: flex;
+        flex-direction: column ;
+        height: 100%;
+    }
+
+    .flex-item img{
+        margin-left: 50px;
+    }
+
+    #aboutMe .wrapper{
+        display: grid;
+        grid-template-rows: 50% 50%;
+    }
+    
+}
+
+@media screen and (max-width: 870px) {
+    #portfolio .project{
+        display: flex;
+        flex-direction: column;
+    }   
+    
+    #portfolio img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .project1{
+        padding-top: 40px;
+        padding-left: 120px;
+    }
+    
+    .project2{
+        padding-top: 40px;
+        padding-left: 120px;
+    }
+    
+    .project3{ 
+        padding-top: 40px;
+        padding-left: 120px;
+    }
+    
+    .project4{
+         padding-top: 40px;
+        padding-left: 120px;
+    } 
+
+    aside{
+        float: none;
+        width: 30%;
+        background-color: rgb(7, 31, 63);
+        margin: 50px;
+        margin-left: 180px;
+        padding: 50px;
+        border: 1px solid orange;
+        border-radius: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1218px){
+    .flex-item{
+        width: 200vw;
+    }
+}
